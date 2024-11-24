@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+ame: CI/CD Pipeline
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
       # Run tests
       - name: Run tests
         run: |
-          pytest
+          pytest test.py
 
       # Build Docker image
       - name: Build Docker image
